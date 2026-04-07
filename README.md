@@ -65,7 +65,7 @@
 
 Курсовая будет представлять собой приложение + отчет.
 
-Подробная информация по курсовой появится позже.
+Информацию по курсовой можно найти [здесь](https://docs.google.com/document/d/1KUrxSEXow_iHrCZW_qbIChF0HqrLz4ZaS5gxTurib6U/edit?usp=sharing).
 
 ## Экзамен
 
