@@ -417,8 +417,6 @@ services:
    mailpit:
       image: axllent/mailpit
       container_name: mailpit-lab4
-      networks:
-         - shared-net
       ports:
          - "1025:1025"  # SMTP
          - "8025:8025"  # Web UI
