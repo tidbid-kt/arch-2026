@@ -49,7 +49,7 @@
 
 Для включения эндпоинта будем использовать Micrometer - удобный инструмент для работы с Observability в джава приложениях.
 
-Подключим зависимости в `shared-components/pom.xml` (секция `<dependencies></dependencies>`:
+Подключим зависимости в `shared-contract/pom.xml` (секция `<dependencies></dependencies>`:
 
 ```xml
 <!-- Core Actuator for metrics endpoints -->
