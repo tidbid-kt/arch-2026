@@ -835,7 +835,7 @@ public class AxonConfig {
 > Если при запуске user-service/balance-service возникает ошибка SQLSTATE 28P01 -
 > выполните команду
 > ```bash
-> git fetch git@github.com:tidbid-kt/archapp.git master && \
+> git fetch git@github.com:tidbid-kt/archapp.git hotfix/h2 && \
 > git cherry-pick 1cba0156361706e6b07d7092c46a3996c1f75421
 > ```
 > И удалите переменные окружения SPRING_DATASOURCE_URL из docker-compose.yaml (в двух местах, для user-service и balance-service)
