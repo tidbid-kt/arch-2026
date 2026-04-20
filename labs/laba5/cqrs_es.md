@@ -43,13 +43,13 @@ Event Sourcing.
 В данной лабораторной работе будем реализовывать `balance-service` - сервис по работе с балансом пользователя.
 Именно его функционал будет обеспечен используя паттерны CQRS + Event Sourcing.
 
-Данный сервис добавлен в `master` ветку репозитория в данном
+Данный сервис добавлен в `main` ветку репозитория в данном
 коммите: https://github.com/tidbid-kt/archapp/commit/f4519b051424259a292bcb063c94d12774cea414.
 
 Вы можете повторить диффы, либо выполнить следующую команду в корне вашего git репозитория с лабами:
 
 ```bash
-git fetch git@github.com:tidbid-kt/archapp.git master && \
+git fetch git@github.com:tidbid-kt/archapp.git main && \
 git cherry-pick f4519b051424259a292bcb063c94d12774cea414
 ```
 
