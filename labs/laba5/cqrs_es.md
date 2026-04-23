@@ -49,7 +49,7 @@ Event Sourcing.
 Вы можете повторить диффы, либо выполнить следующую команду в корне вашего git репозитория с лабами:
 
 ```bash
-git fetch git@github.com:tidbid-kt/archapp.git main && \
+git fetch https://github.com/tidbid-kt/archapp.git main && \
 git cherry-pick f4519b051424259a292bcb063c94d12774cea414
 ```
 
@@ -835,7 +835,7 @@ public class AxonConfig {
 > Если при запуске user-service/balance-service возникает ошибка SQLSTATE 28P01 -
 > выполните команду
 > ```bash
-> git fetch git@github.com:tidbid-kt/archapp.git hotfix/h2 && \
+> git fetch https://github.com/tidbid-kt/archapp.git hotfix/h2 && \
 > git cherry-pick 1cba0156361706e6b07d7092c46a3996c1f75421
 > ```
 > И удалите переменные окружения SPRING_DATASOURCE_URL из docker-compose.yaml (в двух местах, для user-service и balance-service)
