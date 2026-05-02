@@ -253,7 +253,6 @@ networks:
 Для начала необходимо добавить следующую зависимость в `pom.xml` в корне проекта:
 
 ```xml
-
 <dependency>
     <groupId>org.axonframework</groupId>
     <artifactId>axon-spring-boot-starter</artifactId>
