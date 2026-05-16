@@ -154,10 +154,6 @@ services:
     ports:
       - "8024:8024"   # HTTP UI (dashboard, queries)
       - "8124:8124"   # gRPC (для приложений)
-    volumes:
-      - ./axon-data:/axonserver/data
-      - ./axon-events:/axonserver/events
-      - ./axon-config:/axonserver/config
     environment:
       AXONIQ_AXONSERVER_NAME: axonserver
       AXONIQ_AXONSERVER_HOSTNAME: axonserver
